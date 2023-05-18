@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 0em;
+    
+    
+}
+#logo{
+    width: 4rem;
+    height:  auto;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,auto);
+}
+#base{
+    width: 98.7vw;
+    grid-column: 1/9;
+    grid-row: 1/9;
+}
+#overlay{
+    grid-column: 1/9;
+    grid-row: 1/9;
+    background-color: navy;
+    opacity: 0.5;
+}
+.ultron{
+    z-index: 7;
+    grid-column: 2/5;
+    grid-row: 3/8;
+    width: 28vw;
+
+}
+#ultron{
+    width: 100%;
+}
+.texto{
+    z-index: 7;
+    font-size: 2rem;
+    color: white;
+    grid-column: 5/9;
+    grid-row: 5/7;
+}
+#team{
+    background-color: rgb(80, 80, 100);
+}
+/* #team footer{
+    
+} */
