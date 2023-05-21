@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
@@ -24,7 +24,7 @@ body{
 #overlay{
     grid-column: 1/9;
     grid-row: 1/9;
-    background-color: navy;
+    background-color: rgb(140, 140, 175);
     opacity: 0.5;
 }
 .ultron{
