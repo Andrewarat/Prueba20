@@ -14,7 +14,7 @@
 <!-- Nav Bar -->
     <div>
     <img src="" alt="" class="imgLogos">
-    <nav class="navbar navbar-expand-lg navbar-primary bg-secondary">
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-primary bg-secondary">
   <div class="container-fluid">
     <img src="./assets/img/749n_hi42_210722.jpg" width="30em" alt="">
     <a class="navbar-brand" href="#">TURI ANTIOQUIA</a>
@@ -54,17 +54,30 @@
 <!-- End NavBar -->
 <!-- Forms -->
 <form>
-    <div class="mb-3">
+  <div class="container-fluid row-cols-md-3" id="forms">
+    <h2>A Donde Gustaria Viajar</h2>
+    <div class="mb-3" id="Forms">
         <label for="Text1" class="form-label">First Name</label>
         <input type="text" class="form-control" id="exampleInputPassword1">
       </div>
+      <div class="container-fluid" id="forms"></div>
       <label for="Text2" class="form-label">Second Name</label>
       <input type="text" class="form-control" id="exampleInputPassword1">
-    </div> <label for="Text3" class="form-label">ID</label>
+      <div class="container-fluid" id="forms"></div>
+    </div> <label for="Text2" class="form-label">ID</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
+  <div class="container-fluid" id="forms"></div>
+  <label for="Text3" class="form-label">Lugar</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="container-fluid" id="forms">
+  <label for="Text3" class="form-label">Tiempo</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+</div>
 
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <label for="exampleInputEmail1" id="forms-label" class="form-label">Email address</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
